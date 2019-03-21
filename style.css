@@ -152,6 +152,30 @@ body {
 .add__description { width: 400px;}
 .add__value { width: 100px;}
 
+.label__important {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.add__important {
+    width: 55px;
+    border: 1px solid #e7e7e7;
+    height: 44px;
+    font-size: 15px;
+    color: inherit;
+    background-color: #fff;
+    margin-right: 10px;
+    font-weight: 300;
+    transition: border 0.3s;
+}
+
+.important {
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
 .add__btn {
     font-size: 35px;
     background: none;
@@ -168,7 +192,8 @@ body {
 
 .add__type:focus,
 .add__description:focus,
-.add__value:focus {
+.add__value:focus,
+.add__important:focus {
     outline: none;
     border: 1px solid #28B9B5;
 }
